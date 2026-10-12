@@ -1,0 +1,29 @@
+material,group,min_dyn_cm,max_dyn_cm,class,note
+PTFE (Teflon),Plastics & rubbers,18,19.4,Very low surface energy,"Non-stick by design. Untreated PTFE needs a silicone adhesive, or chemically etched PTFE for acrylic tapes."
+Silicone rubber,Plastics & rubbers,20.1,20.1,Very low surface energy,Only silicone adhesives wet it reliably. Silicone oils in the part can also migrate and weaken other bonds.
+PVF film (Tedlar),Plastics & rubbers,28,28,Low surface energy (LSE),
+Polypropylene (PP),Plastics & rubbers,29,30.5,Low surface energy (LSE),The classic hard-to-bond plastic. Glass-filled and talc-filled grades behave differently: test the actual grade.
+"Polyethylene (PE, HDPE, LDPE)",Plastics & rubbers,31,31.6,Low surface energy (LSE),
+TPO / olefin elastomers,Plastics & rubbers,,,Low surface energy (LSE),"Polyolefin based, so treat as low surface energy (3M lists TPO among the LSE plastics)."
+EVA,Plastics & rubbers,33,33,Low surface energy (LSE),
+Polystyrene (PS),Plastics & rubbers,34,36,Borderline,
+Acetal (POM),Plastics & rubbers,36,37,Borderline,"Slick, crystalline surface: test both a standard and an LSE acrylic."
+Acrylic (PMMA),Plastics & rubbers,37.5,38,Borderline,"Prone to stress cracking from solvents; clean with isopropyl alcohol and water, not stronger solvents."
+Modified PPE (Noryl),Plastics & rubbers,38,38,Medium surface energy (MSE),
+"PVC, rigid",Plastics & rubbers,37.9,39,Medium surface energy (MSE),Flexible PVC contains plasticizers that migrate into many adhesives and soften them; ask for a plasticizer-resistant adhesive.
+ABS,Plastics & rubbers,38.5,42,Medium surface energy (MSE),
+Polycarbonate (PC),Plastics & rubbers,42,44,Medium surface energy (MSE),
+Polyester (PET),Plastics & rubbers,39,43,Medium surface energy (MSE),
+Polyurethane,Plastics & rubbers,43,43,Medium surface energy (MSE),
+"Nylon (PA 6, PA 66)",Plastics & rubbers,42.2,46,Medium surface energy (MSE),Absorbs moisture; dry parts bond differently from parts that have sat in humid storage.
+Phenolic,Plastics & rubbers,47,47,Medium surface energy (MSE),
+Powder coating,Coatings & paints,,,Low surface energy (LSE),"Varies widely with the formulation (3M: ""broad range""); tesa lists powder coatings with the low-energy surfaces. Measure with dyne pens and test."
+Polyurethane paint (Polane),Coatings & paints,38,38,Medium surface energy (MSE),
+Epoxy paint,Coatings & paints,43,44.5,Medium surface energy (MSE),
+Alkyd enamel,Coatings & paints,45,45,Medium surface energy (MSE),
+Tin,Metals & glass,526,526,High surface energy (HSE),
+Zinc (galvanized steel),Metals & glass,753,753,High surface energy (HSE),
+Aluminum,Metals & glass,840,840,High surface energy (HSE),"High energy when clean, but rolling oil and oxide films are common: clean before bonding."
+Copper,Metals & glass,1103,1103,High surface energy (HSE),
+Stainless steel,Metals & glass,700,1100,High surface energy (HSE),"Stainless steel is the reference surface in most peel tests, so datasheet peel values are measured on it."
+Glass and porcelain,Metals & glass,250,500,High surface energy (HSE),

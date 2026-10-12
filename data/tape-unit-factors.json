@@ -1,0 +1,201 @@
+{
+  "description": "Multiply a value in `unit` by `to_base` to get the value in `base_unit`. Divide by the target unit's `to_base` to convert onward.",
+  "exact_definitions": [
+    "1 in = 25.4 mm",
+    "1 lbf = 4.4482216152605 N",
+    "1 ozf = 1/16 lbf",
+    "1 kgf = 9.80665 N",
+    "1 lb = 453.59237 g",
+    "1 oz = 28.349523125 g",
+    "1 ft = 0.3048 m"
+  ],
+  "temperature": "°F = °C × 9/5 + 32; K = °C + 273.15",
+  "quantities": [
+    {
+      "quantity": "Peel adhesion / tensile (force per width)",
+      "base_unit": "N/m",
+      "units": [
+        {
+          "unit": "N/25 mm",
+          "name": "newtons per 25 mm",
+          "to_base": 40
+        },
+        {
+          "unit": "N/cm",
+          "name": "newtons per centimetre",
+          "to_base": 100
+        },
+        {
+          "unit": "N/mm",
+          "name": "newtons per millimetre",
+          "to_base": 1000
+        },
+        {
+          "unit": "N/in",
+          "name": "newtons per inch",
+          "to_base": 39.37007874
+        },
+        {
+          "unit": "oz/in",
+          "name": "ounces (force) per inch",
+          "to_base": 10.9454272
+        },
+        {
+          "unit": "lb/in (piw)",
+          "name": "pounds (force) per inch width",
+          "to_base": 175.1268352
+        },
+        {
+          "unit": "gf/25 mm",
+          "name": "grams-force per 25 mm",
+          "to_base": 0.392266
+        },
+        {
+          "unit": "gf/in",
+          "name": "grams-force per inch",
+          "to_base": 0.3860885827
+        },
+        {
+          "unit": "kgf/25 mm",
+          "name": "kilograms-force per 25 mm",
+          "to_base": 392.266
+        }
+      ]
+    },
+    {
+      "quantity": "Thickness",
+      "base_unit": "mm",
+      "units": [
+        {
+          "unit": "mm",
+          "name": "millimetres",
+          "to_base": 1
+        },
+        {
+          "unit": "µm",
+          "name": "micrometres (microns)",
+          "to_base": 0.001
+        },
+        {
+          "unit": "mil",
+          "name": "mils (thousandths of an inch)",
+          "to_base": 0.0254
+        },
+        {
+          "unit": "in",
+          "name": "inches",
+          "to_base": 25.4
+        }
+      ]
+    },
+    {
+      "quantity": "Bond strength / pressure (force per area)",
+      "base_unit": "kPa",
+      "units": [
+        {
+          "unit": "kPa",
+          "name": "kilopascals",
+          "to_base": 1
+        },
+        {
+          "unit": "MPa (N/mm²)",
+          "name": "megapascals",
+          "to_base": 1000
+        },
+        {
+          "unit": "N/cm²",
+          "name": "newtons per square centimetre",
+          "to_base": 10
+        },
+        {
+          "unit": "psi",
+          "name": "pounds per square inch",
+          "to_base": 6.894757293
+        },
+        {
+          "unit": "kgf/cm²",
+          "name": "kilograms-force per square centimetre",
+          "to_base": 98.0665
+        },
+        {
+          "unit": "bar",
+          "name": "bar",
+          "to_base": 100
+        }
+      ]
+    },
+    {
+      "quantity": "Coat weight / basis weight",
+      "base_unit": "g/m²",
+      "units": [
+        {
+          "unit": "g/m² (gsm)",
+          "name": "grams per square metre",
+          "to_base": 1
+        },
+        {
+          "unit": "oz/yd²",
+          "name": "ounces per square yard",
+          "to_base": 33.90574747
+        },
+        {
+          "unit": "lb/ream (3,000 ft²)",
+          "name": "pounds per 3,000 square feet",
+          "to_base": 1.627475879
+        }
+      ]
+    },
+    {
+      "quantity": "Foam density",
+      "base_unit": "kg/m³",
+      "units": [
+        {
+          "unit": "kg/m³",
+          "name": "kilograms per cubic metre",
+          "to_base": 1
+        },
+        {
+          "unit": "g/cm³",
+          "name": "grams per cubic centimetre",
+          "to_base": 1000
+        },
+        {
+          "unit": "lb/ft³ (pcf)",
+          "name": "pounds per cubic foot",
+          "to_base": 16.01846337
+        }
+      ]
+    },
+    {
+      "quantity": "Roll width / length",
+      "base_unit": "m",
+      "units": [
+        {
+          "unit": "mm",
+          "name": "millimetres",
+          "to_base": 0.001
+        },
+        {
+          "unit": "m",
+          "name": "metres",
+          "to_base": 1
+        },
+        {
+          "unit": "in",
+          "name": "inches",
+          "to_base": 0.0254
+        },
+        {
+          "unit": "ft",
+          "name": "feet",
+          "to_base": 0.3048
+        },
+        {
+          "unit": "yd",
+          "name": "yards",
+          "to_base": 0.9144
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+quantity,base_unit,unit,name,to_base
+Peel adhesion / tensile (force per width),N/m,N/25 mm,newtons per 25 mm,40
+Peel adhesion / tensile (force per width),N/m,N/cm,newtons per centimetre,100
+Peel adhesion / tensile (force per width),N/m,N/mm,newtons per millimetre,1000
+Peel adhesion / tensile (force per width),N/m,N/in,newtons per inch,39.37007874
+Peel adhesion / tensile (force per width),N/m,oz/in,ounces (force) per inch,10.9454272
+Peel adhesion / tensile (force per width),N/m,lb/in (piw),pounds (force) per inch width,175.1268352
+Peel adhesion / tensile (force per width),N/m,gf/25 mm,grams-force per 25 mm,0.392266
+Peel adhesion / tensile (force per width),N/m,gf/in,grams-force per inch,0.3860885827
+Peel adhesion / tensile (force per width),N/m,kgf/25 mm,kilograms-force per 25 mm,392.266
+Thickness,mm,mm,millimetres,1
+Thickness,mm,µm,micrometres (microns),0.001
+Thickness,mm,mil,mils (thousandths of an inch),0.0254
+Thickness,mm,in,inches,25.4
+Bond strength / pressure (force per area),kPa,kPa,kilopascals,1
+Bond strength / pressure (force per area),kPa,MPa (N/mm²),megapascals,1000
+Bond strength / pressure (force per area),kPa,N/cm²,newtons per square centimetre,10
+Bond strength / pressure (force per area),kPa,psi,pounds per square inch,6.894757293
+Bond strength / pressure (force per area),kPa,kgf/cm²,kilograms-force per square centimetre,98.0665
+Bond strength / pressure (force per area),kPa,bar,bar,100
+Coat weight / basis weight,g/m²,g/m² (gsm),grams per square metre,1
+Coat weight / basis weight,g/m²,oz/yd²,ounces per square yard,33.90574747
+Coat weight / basis weight,g/m²,"lb/ream (3,000 ft²)","pounds per 3,000 square feet",1.627475879
+Foam density,kg/m³,kg/m³,kilograms per cubic metre,1
+Foam density,kg/m³,g/cm³,grams per cubic centimetre,1000
+Foam density,kg/m³,lb/ft³ (pcf),pounds per cubic foot,16.01846337
+Roll width / length,m,mm,millimetres,0.001
+Roll width / length,m,m,metres,1
+Roll width / length,m,in,inches,0.0254
+Roll width / length,m,ft,feet,0.3048
+Roll width / length,m,yd,yards,0.9144

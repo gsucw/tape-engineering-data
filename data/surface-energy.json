@@ -1,0 +1,258 @@
+{
+  "unit": "dyn/cm (= mN/m = mJ/m²)",
+  "classes": {
+    "Very low surface energy": "about 18–21 dyn/cm",
+    "Low surface energy (LSE)": "below 36 dyn/cm",
+    "Borderline": "about 34–38 dyn/cm",
+    "Medium surface energy (MSE)": "about 38–50 dyn/cm",
+    "High surface energy (HSE)": "hundreds of dyn/cm"
+  },
+  "sources": [
+    {
+      "label": "3M — Categorizing Surface Energy (Science of Adhesion): surface energy classes",
+      "href": "https://www.3m.com/3M/en_US/bonding-and-assembly-us/resources/science-of-adhesion/categorizing-surface-energy/"
+    },
+    {
+      "label": "3M — Bonding Solutions catalogue: surface energy chart",
+      "href": "https://www.3m.com.au/intl/au/Catalogue/IATD_BondingSolutions/files/assets/basic-html/page30.html"
+    },
+    {
+      "label": "Accu Dyne Test — critical surface tension of polymers",
+      "href": "https://www.accudynetest.com/polytable_03_print.html?sortby=cst"
+    },
+    {
+      "label": "tesa — LSE converter assortment: low/high energy boundary at 36–38 mN/m",
+      "href": "https://www.tesa.com/en/files/download/10894056,0,tesa-lse-surfacetension-converterassortment-2022.pdf"
+    },
+    {
+      "label": "Saint-Gobain Tape Solutions — acrylic, rubber or silicone adhesive",
+      "href": "https://www.tapesolutions.saint-gobain.com/en-gb/resources/blog/acrylic-rubber-or-silicone-adhesive"
+    }
+  ],
+  "materials": [
+    {
+      "material": "PTFE (Teflon)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 18,
+      "max_dyn_cm": 19.4,
+      "class": "Very low surface energy",
+      "note": "Non-stick by design. Untreated PTFE needs a silicone adhesive, or chemically etched PTFE for acrylic tapes."
+    },
+    {
+      "material": "Silicone rubber",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 20.1,
+      "max_dyn_cm": 20.1,
+      "class": "Very low surface energy",
+      "note": "Only silicone adhesives wet it reliably. Silicone oils in the part can also migrate and weaken other bonds."
+    },
+    {
+      "material": "PVF film (Tedlar)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 28,
+      "max_dyn_cm": 28,
+      "class": "Low surface energy (LSE)",
+      "note": null
+    },
+    {
+      "material": "Polypropylene (PP)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 29,
+      "max_dyn_cm": 30.5,
+      "class": "Low surface energy (LSE)",
+      "note": "The classic hard-to-bond plastic. Glass-filled and talc-filled grades behave differently: test the actual grade."
+    },
+    {
+      "material": "Polyethylene (PE, HDPE, LDPE)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 31,
+      "max_dyn_cm": 31.6,
+      "class": "Low surface energy (LSE)",
+      "note": null
+    },
+    {
+      "material": "TPO / olefin elastomers",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": null,
+      "max_dyn_cm": null,
+      "class": "Low surface energy (LSE)",
+      "note": "Polyolefin based, so treat as low surface energy (3M lists TPO among the LSE plastics)."
+    },
+    {
+      "material": "EVA",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 33,
+      "max_dyn_cm": 33,
+      "class": "Low surface energy (LSE)",
+      "note": null
+    },
+    {
+      "material": "Polystyrene (PS)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 34,
+      "max_dyn_cm": 36,
+      "class": "Borderline",
+      "note": null
+    },
+    {
+      "material": "Acetal (POM)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 36,
+      "max_dyn_cm": 37,
+      "class": "Borderline",
+      "note": "Slick, crystalline surface: test both a standard and an LSE acrylic."
+    },
+    {
+      "material": "Acrylic (PMMA)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 37.5,
+      "max_dyn_cm": 38,
+      "class": "Borderline",
+      "note": "Prone to stress cracking from solvents; clean with isopropyl alcohol and water, not stronger solvents."
+    },
+    {
+      "material": "Modified PPE (Noryl)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 38,
+      "max_dyn_cm": 38,
+      "class": "Medium surface energy (MSE)",
+      "note": null
+    },
+    {
+      "material": "PVC, rigid",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 37.9,
+      "max_dyn_cm": 39,
+      "class": "Medium surface energy (MSE)",
+      "note": "Flexible PVC contains plasticizers that migrate into many adhesives and soften them; ask for a plasticizer-resistant adhesive."
+    },
+    {
+      "material": "ABS",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 38.5,
+      "max_dyn_cm": 42,
+      "class": "Medium surface energy (MSE)",
+      "note": null
+    },
+    {
+      "material": "Polycarbonate (PC)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 42,
+      "max_dyn_cm": 44,
+      "class": "Medium surface energy (MSE)",
+      "note": null
+    },
+    {
+      "material": "Polyester (PET)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 39,
+      "max_dyn_cm": 43,
+      "class": "Medium surface energy (MSE)",
+      "note": null
+    },
+    {
+      "material": "Polyurethane",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 43,
+      "max_dyn_cm": 43,
+      "class": "Medium surface energy (MSE)",
+      "note": null
+    },
+    {
+      "material": "Nylon (PA 6, PA 66)",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 42.2,
+      "max_dyn_cm": 46,
+      "class": "Medium surface energy (MSE)",
+      "note": "Absorbs moisture; dry parts bond differently from parts that have sat in humid storage."
+    },
+    {
+      "material": "Phenolic",
+      "group": "Plastics & rubbers",
+      "min_dyn_cm": 47,
+      "max_dyn_cm": 47,
+      "class": "Medium surface energy (MSE)",
+      "note": null
+    },
+    {
+      "material": "Powder coating",
+      "group": "Coatings & paints",
+      "min_dyn_cm": null,
+      "max_dyn_cm": null,
+      "class": "Low surface energy (LSE)",
+      "note": "Varies widely with the formulation (3M: \"broad range\"); tesa lists powder coatings with the low-energy surfaces. Measure with dyne pens and test."
+    },
+    {
+      "material": "Polyurethane paint (Polane)",
+      "group": "Coatings & paints",
+      "min_dyn_cm": 38,
+      "max_dyn_cm": 38,
+      "class": "Medium surface energy (MSE)",
+      "note": null
+    },
+    {
+      "material": "Epoxy paint",
+      "group": "Coatings & paints",
+      "min_dyn_cm": 43,
+      "max_dyn_cm": 44.5,
+      "class": "Medium surface energy (MSE)",
+      "note": null
+    },
+    {
+      "material": "Alkyd enamel",
+      "group": "Coatings & paints",
+      "min_dyn_cm": 45,
+      "max_dyn_cm": 45,
+      "class": "Medium surface energy (MSE)",
+      "note": null
+    },
+    {
+      "material": "Tin",
+      "group": "Metals & glass",
+      "min_dyn_cm": 526,
+      "max_dyn_cm": 526,
+      "class": "High surface energy (HSE)",
+      "note": null
+    },
+    {
+      "material": "Zinc (galvanized steel)",
+      "group": "Metals & glass",
+      "min_dyn_cm": 753,
+      "max_dyn_cm": 753,
+      "class": "High surface energy (HSE)",
+      "note": null
+    },
+    {
+      "material": "Aluminum",
+      "group": "Metals & glass",
+      "min_dyn_cm": 840,
+      "max_dyn_cm": 840,
+      "class": "High surface energy (HSE)",
+      "note": "High energy when clean, but rolling oil and oxide films are common: clean before bonding."
+    },
+    {
+      "material": "Copper",
+      "group": "Metals & glass",
+      "min_dyn_cm": 1103,
+      "max_dyn_cm": 1103,
+      "class": "High surface energy (HSE)",
+      "note": null
+    },
+    {
+      "material": "Stainless steel",
+      "group": "Metals & glass",
+      "min_dyn_cm": 700,
+      "max_dyn_cm": 1100,
+      "class": "High surface energy (HSE)",
+      "note": "Stainless steel is the reference surface in most peel tests, so datasheet peel values are measured on it."
+    },
+    {
+      "material": "Glass and porcelain",
+      "group": "Metals & glass",
+      "min_dyn_cm": 250,
+      "max_dyn_cm": 500,
+      "class": "High surface energy (HSE)",
+      "note": null
+    }
+  ]
+}
